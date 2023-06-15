@@ -12,7 +12,8 @@ fun main(args: Array<String>) {
 }
 
 class HelloWorld(val text: String) {
-    fun print() {
+    fun print(): String {
         println(text)
+        return text
     }
 }
