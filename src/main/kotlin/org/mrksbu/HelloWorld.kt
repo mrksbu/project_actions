@@ -8,6 +8,7 @@ fun main(args: Array<String>) {
     println("Program arguments: ${args.joinToString()}")
 
     HelloWorld("Example Programm to be compiled with GitHub actions").print()
+    HelloWorld("End").print()
 }
 
 class HelloWorld(val text: String) {
